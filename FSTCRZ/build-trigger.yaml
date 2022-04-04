@@ -1,0 +1,7 @@
+# YAML to specifiy branch build
+trigger:
+  branches:
+    include:
+    - master
+	
+	
