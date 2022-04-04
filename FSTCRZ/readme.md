@@ -8,3 +8,17 @@ Login to https://dev.azure.com/
 Create Pipeline 
 
 
+
+
+```yaml
+# specific branch build with batching
+trigger:
+  batch: true
+  branches:
+    include:
+    - master
+```
+
+
+
+
